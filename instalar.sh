@@ -19,11 +19,11 @@ if [[ $input == Yes || $input == yes || $input == y || $input == Y ]]; then
 	rm -rf motd
 	cd $HOME
 	mv bash.bashrc /data/data/com.termux/files/usr/etc
-	echo -e "\e[1;91mAbrindo instagram...\n"
+	echo -e "Abrindo instagram...\n"
 	sleep 3
 	xdg-open https://www.instagram.com/the_hiro_kami/ && sleep 3
-	echo -e "\e[1;91mInstalado com sucesso"
-	echo -e "Reinicie seu Termux"
+	echo -e "Instalado com sucesso"
+	echo -e "${B}Reinicie seu Termux"
 	exit 3
 
 elif [[ $input == No || $input == no || $input == n || $input == N ]]; then
