@@ -10,7 +10,7 @@ echo -e "
    instagram:${G} the_hiro_kami
    "
 
-read -p "Deseja instalar o Parrot Shell no Termux? (Yes /No): " input
+read -p "Deseja instalar o Parrot Shell no Termux?(Yes/No): " input
 if [[ $input == Yes || $input == yes || $input == y || $input == Y ]]; then
 	sleep 3
 	cp bash.bashrc $HOME
