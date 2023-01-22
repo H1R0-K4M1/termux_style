@@ -11,7 +11,7 @@
 * `bash instalar.sh`
 
 ## print do banner
-<img src="banner.jpg"></img>
+<img src="bannerT.jpg"></img>
 
 ## Créditos
 
